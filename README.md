@@ -1,30 +1,19 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [x] Create a custom react hook to fetch users from https://randomuser.me/api/
+- [x]  The  hook should return a list of users and allow for pagination
+- [x]  Pagination urls take page and results params https://randomuser.me/api/?page=3&results=10
+- [x]  Use the hook to display a list of users showing  their name and  thumbnail
+- [x]  Add pagination buttons
 
-Currently, two official plugins are available:
+## Output Preview
+  ![image](https://github.com/AmalShaiju/staples-take-home-assignment/assets/65841904/76bdcd8b-e567-4252-86ef-27efb31a89bc)
+  
+## Custom Hook Preview
+![image](https://github.com/AmalShaiju/staples-take-home-assignment/assets/65841904/5e48e063-7910-45ca-ae45-ab4e327420a9)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## App.tsx Preview
+![image](https://github.com/AmalShaiju/staples-take-home-assignment/assets/65841904/46f4c01e-84c4-4eaa-b160-0d21975487c0)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## User Data Repository
+![image](https://github.com/AmalShaiju/staples-take-home-assignment/assets/65841904/0c1081fe-c872-4dcb-a942-83be9400e9a1)
