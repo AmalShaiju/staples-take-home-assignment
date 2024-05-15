@@ -6,7 +6,10 @@
 - [x]  Use the hook to display a list of users showing  their name and  thumbnail
 - [x]  Add pagination buttons
 
+
 ## Output Preview
+I have deployed the web app for your ease of access https://amalshaiju.github.io/staples-take-home-assignment/
+
   ![image](https://github.com/AmalShaiju/staples-take-home-assignment/assets/65841904/76bdcd8b-e567-4252-86ef-27efb31a89bc)
   
 ## Custom Hook Preview
