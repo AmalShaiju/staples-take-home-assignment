@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Result, UsersGetResponse } from "../api-models/models";
-import { UserRepository } from "../api-services/UserService";
+import { UserRepository } from "../api-services/UserRepository";
 
 export default function useUserListing(): { users: Result[], currentPage: number,  next: () => void, prev: () => void } {
     const [users, setUsers] = useState([]);

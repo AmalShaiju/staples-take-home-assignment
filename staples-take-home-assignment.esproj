@@ -9,8 +9,6 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="src\custom-hooks\" />
     <Folder Include="src\api-models\" />
-    <Folder Include="src\api-services\" />
   </ItemGroup>
 </Project>
