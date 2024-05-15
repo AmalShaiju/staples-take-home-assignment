@@ -10,7 +10,7 @@ function App() {
 
     return (
         <>
-            <div className="container">
+            <div className="container pt-5">
                 <div className="row g-0 m-auto">
                     <div className="col-12 text-center pt-2">
                         <h1 className="fw-bold text-uppercase">Amal Shaiju</h1>
